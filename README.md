@@ -36,16 +36,17 @@ http://www.whois.com/whois website to get detailed information about a domain na
 ## Finding IP address:
 ping command is available on Windows as well as on Linux OS. Following is the example to find out the IP address of facebook.com.
 ### output:
-
+![ping](/assets/ping.png)
 
 ## Finding Hosting Company:
 get further detail by using ip2location.com website.
 ### output:
+![ip2loc](/assets/ip2loc.png)
 
 ## History of the website:
 https://web.archive.org/
 ### output:
-
+![waybackmachine](/assets/waybackmachine.png)
 
 
 ## Webserver Fingerprinting:
@@ -56,13 +57,16 @@ GET / HTTP/1.1
 Host: example.com
 
 ### output:
+![nc](/assets/nc.png)
 
  
 ## nmap:
 ### output:
+![nmap](/assets/nmap.png)
 
 ## Whatweb
 ### output:
+![whatweb](/assets/whatweb.png)
 
 
 
@@ -75,6 +79,7 @@ Host: example.com
 ## TCP Traceroute:
 sudo traceroute -T www.google.com
 ### output:
+![tcp](/assets/tcp.png)
 
 
 
@@ -82,11 +87,13 @@ sudo traceroute -T www.google.com
 ## UDP Traceroute:
 sudo traceroute -U www.google.com
 ### output:
+![udp](/assets/udp.png)
 
 
 ## ICMP Traceroute:
 sudo traceroute  www.google.com
 ### output:
+![icmp](/assets/icmp.png)
 
 ## RESULT:
 The information gathering techniques tools/procedure were  identified successfully
